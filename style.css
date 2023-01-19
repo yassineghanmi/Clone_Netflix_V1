@@ -175,7 +175,7 @@ label::after{
     transition-timing-function: ease-in-out;
 
 }
-input[type=radio]{
+input[type=checkbox]{
     display: none;
 }
 .content{
@@ -187,11 +187,11 @@ input[type=radio]{
     transition: max-height 0.5s, padding 0.5s;
     transition-timing-function: ease-in-out;
 }
-input[type=radio]:checked + label + .content{
+input[type=checkbox]:checked + label + .content{
     max-height: 600px;
     padding: 30px 20px;
 }
-input[type=radio]:checked + label::after{
+input[type=checkbox]:checked + label::after{
     transform: rotate(45deg);
 }
 .faq .email-signup{
